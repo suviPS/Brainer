@@ -88,7 +88,7 @@ public class MainActivity extends AppCompatActivity {
                     gridLayout.getChildAt(i).setClickable(false);
                 }
 
-                displayFinalScoreTextView.setText("Your score is: " + scoreHit + " out of " + scoreTries);
+                displayFinalScoreTextView.setText("Your score: " + scoreHit + " out of " + scoreTries);
                 displayFinalScoreTextView.setVisibility(View.VISIBLE);
 
                 startButton.setVisibility(View.VISIBLE);
